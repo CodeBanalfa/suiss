@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./image/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immobilier Suiss French Groupe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylecintact.css">
+</head>
+<body>
+  <header>
+    <h1 id="H1">Suiss French Groupe</h1> 
+       <img id="image"  src="./image/icon.png" >
+</header>
+  
+  
+    <!--home-->
+    <section class="home" >
+     
+      
+        <button class="arrow"  onclick="window.location.href='#build'"><img src="image/arrow_bottom.jpeg"></button>
+        <button class="btn_style menu_btn"  onclick="openMenu()">OPEN MENU</button>
+        <section class="menu">
+            <button class="btn_style menu_btn"  onclick="closeMenu()">CLOSE MENU</button>
+            <ul>
+                <li><a href="#gallery">Apparttement</a></li>
+                <li><a href="#defaultContactFormName">Contact Nous</a></li>
+                <li><a href="https://goo.gl/maps/uLmZ562wBvSfvszj8">Notre Addresse</a></li>
+                <li><a href="./inscription/tp-formcontrol .html">Inscription</a></li>
+                <li><a href="#build">qui a nous?</a></li>
+            </ul>
+            <img src="image/imag2.jpg">
+        </section>
+     
+
+    </section>
+    <!--home-->
+    <!--build-->
+    <section class="build" id="build">
+        <div>
+            <h1> Qui a nous? </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quia exercitationem voluptatem nam debitis esse expedita animi quo mollitia pariatur tenetur deleniti dignissimos unde sequi ratione eligendi aliquam voluptas saepe?</p>
+            <button class="btn_style section_btn"><a style="color: aliceblue;" href="#defaultContactFormName">Contact us now</a></button>
+        </div>
+        <img src="./image/imag3.jpg" >
+    </section>
+    <!--build-->
+    <!--gallery-->
+    <section class="gallery" id="gallery">
+        <h2>Apparttement!</h2>
+        <div class="gallery_images">
+          <div class="gallery_img">
+             <div class="image">
+                <img src="./image/imag4.jpg">  
+             </div>
+             <div class="content">
+                <p>lille</p>
+             </div>
+          </div>
+          <div class="gallery_img">
+             <div class="image">
+                <img src="./image/imag5.jpg">
+             </div>
+             <div class="content">
+                <p>Roubaix</p>
+             </div>
+          </div>
+          <div class="gallery_img">
+                 <div class="image">
+                    <img src="./image/imag6.jpg">
+                 </div>
+                 <div class="content">
+                  <p>Roncq</p>
+                 </div>
+            </div>
+          <!--    <div class="gallery_img">
+                <div class="image">
+                 <img src="./image/imag7.jpg">
+                </div>
+                <div class="content">
+                 <p>Wasquehal</p>
+                </div>
+           </div>
+           <div class="gallery_img">
+             <div class="image">
+               <img src="./image/imag8.jpg">
+             </div>
+             <div class="content">
+              <p>Crois</p>
+             </div>
+         </div>
+          <div class="gallery_img">
+            <div class="image">
+              <img src="./image/imag9.jpg">
+            </div>
+           <div class="content">
+             <p>Lille Sud</p>
+           </div>
+          </div>
+         <div class="gallery_img">
+            <div class="image">
+               <img src="./image/imag8.jpg">
+              </div>
+               <div class="content">
+                 <p>crois</p>
+             </div>
+          </div>-->
+      </div>
+        
+              
+    </section>
+    <!--gallery-->
+    
+    <form class="text-center border border-light p-5" action="#!">
+  
+      <p class="h4 mb-4 shadow">Contact moi</p>
+  
+      <!-- Name -->
+      <input type="text" id="defaultContactFormName" class="form-control mb-4 shadow" placeholder="Name">
+  
+      <!-- Email -->
+      <input type="email" id="defaultContactFormEmail" class="form-control mb-4 shadow" placeholder="E-mail">
+  
+      <!-- Subject -->
+      <input type="text" id="defaultContactFormName" class="form-control mb-4 shadow" placeholder="sujet">
+  
+      <!-- Message -->
+      <div class="form-group">
+          <textarea class="form-control rounded-0 shadow" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+      </div>
+  
+      <!-- Copy -->
+      <br>
+  
+      <!-- Send button -->
+      <button class="btn btn-info btn-block shadow" type="submit">Envoyez</button>
+  
+  </form>
+  <!-- Default form contact -->
+  <footer>
+    <address>
+      <span>Notre Addresser:</span>
+      <span>17 Pl. de la Solidarité</span>
+      <span> 59000 Lille</span>
+      <span>France</span>
+    </address>
+    <p>@faizdev | &copy; Tous les droits sont réservés</p>
+</footer>
+  
+    <script src="style.js"></script>
+</body>
+</html>

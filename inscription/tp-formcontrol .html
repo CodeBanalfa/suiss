@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>TP Form Control</title>
+</head>
+
+<body id="forma">
+  <header>
+    <h1 id="H1">Suiss French Groupe</h1> 
+       <img id="image"  src="./image/icon.png" >
+  </header>
+  <h1>Inscription</h1>
+  <hr />
+  <form method="post" , action="javascript:alert('On envoie le formulaire');">
+    <section id="formSection">
+      <div class="group-1">
+        <div class="group-a">
+          <label id="labelPseudo" for="fname">Pseudo<span>*</span></label>
+          <input id="fpseudo" type="text" placeholder="Votre pseudo"/>
+          <div class="errorDiv invisible" id="errorDiv"></div>
+          <label id="labelPassword" for="fsubject">Mot de passe<span>*</span></label>
+          <input id="fpassword" type="password" placeholder="Votre mot de passe" />
+          <div class="errorDiv invisible" ></div>
+          <label id="labelConfirm" for="fsubject">Confirmation<span>*</span></label>
+          <input id="fconfirm" type="password" placeholder="Confirmez votre mot de passe" />
+          <div class="errorDiv invisible"></div>
+          <label id="labelMail" for="fmail">Email<span>*</span></label>
+          <input id="fmail" type="text" placeholder="Votre email" />
+          <div class="errorDiv invisible"></div>
+        </div>
+        <div class="group-b">
+          <label id="labelMessage" for="fmessage">Message</label>
+          <textarea id="fmessage" placeholder="Un mot doux pour le webmaster"></textarea>
+        </div>
+      </div>
+      <div class="group-2">
+        <input id="subButton" type="submit" value="Envoyer" >
+      </div>
+    </section>
+  </form>
+  <script src="form-control.js"></script>
+</body>
+</html>
